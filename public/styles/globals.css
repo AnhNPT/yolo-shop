@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Y-button {
+    font-family: var(--font-helvetica);
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.Y-H1-caps {
+    font-family: var(--font-coco-gothic);
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 58px;
+    letter-spacing: 8%;
+}
+
+.Y-text {
+    font-family: var(--font-helvetica);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.Y-header {
+    font-family: var(--font-helvetica);
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 7%;
+}
+
+.Y-small_text {
+    font-family: var(--font-helvetica);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.Y-H3{
+    font-family: var(--font-helvetica);
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 7%;
+}
