@@ -38,10 +38,50 @@
     line-height: 18px;
 }
 
-.Y-H3{
+.Y-H3 {
     font-family: var(--font-helvetica);
     font-weight: bold;
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 7%;
+}
+
+.Y-H4 {
+    font-size: 18px;
+    font-family: var(--font-helvetica);
+    line-height: 25px;
+}
+
+.Y-H2 {
+    font-family: var(--font-helvetica);
+    font-size: 27px;
+    line-height: 36px;
+}
+
+.Y-H1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    font-family: var(--font-coco-gothic);
+}
+
+.Y_mob-Caps {
+    font-family: var(--font-coco-gothic);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
+}
+
+.Y_mob-H2 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    font-family: var(--font-helvetica);
+}
+
+.Y_mob-H1 {
+    font-family: var(--font-coco-gothic);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
 }

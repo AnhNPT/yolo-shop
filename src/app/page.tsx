@@ -1,4 +1,6 @@
-export default function Home() {
+// Splash screen
+
+export default function Splash() {
     return (
         <>
             <div className="Y-button">abc</div>
