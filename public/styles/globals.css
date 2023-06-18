@@ -85,3 +85,11 @@
     font-size: 35px;
     line-height: 49px;
 }
+
+.iconWhite {
+    filter: invert(1);
+}
+
+/* .iconBlack {
+    filter: invert(0);
+} */
