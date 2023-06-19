@@ -2,17 +2,19 @@ import Image from "next/image";
 
 interface HeaderProps {
     backgroundColor: string;
+    halfBgImage: string;
 }
 
 export default function Header(props: HeaderProps) {
+
     return (
         <div className="pt-6 container header flex items-center justify-between fixed top-0 left-0 right-0 w-full bg-transparent px-4 md:px-0">
             <div className="col-1">
                 <Image alt="" className="cursor-pointer" src={"/images/hamburger.svg"} priority={true} width={56} height={1}></Image>
             </div>
             <div className="col-2 gap-[90px] hidden md:flex">
-                <span className={`${props.backgroundColor === "#1f2128" ? "text-white" : "text-Y-black"} uppercase Y-text font-bold cursor-pointer`}>Women</span>
-                <span className={`${props.backgroundColor === "#1f2128" ? "text-white" : "text-Y-black"} uppercase Y-text font-bold cursor-pointer`}>Men</span>
+                <span className={`${props.halfBgImage === "none" ? "text-white" : "text-Y-black"} uppercase Y-text font-bold cursor-pointer`}>Women</span>
+                <span className={`${props.halfBgImage === "none" ? "text-white" : "text-Y-black"} uppercase Y-text font-bold cursor-pointer`}>Men</span>
                 <span className={`${props.backgroundColor === "#1f2128" ? "text-white" : "text-Y-black"} uppercase Y-text font-bold cursor-pointer`}>Kids</span>
                 <span className={`${props.backgroundColor === "#1f2128" ? "text-white" : "text-Y-black"} uppercase Y-text font-bold cursor-pointer`}>Gifts</span>
             </div>

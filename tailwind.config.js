@@ -29,7 +29,8 @@ module.exports = {
             },
             backgroundImage: {
                 'splash': "url('/images/image.png')",
-                'splash-responsive': "url('/images/image-responsive.png')"
+                'splash-responsive': "url('/images/image-responsive.png')",
+                'splash-half': "url('/images/half-background-img.png')"
             }
         },
     },

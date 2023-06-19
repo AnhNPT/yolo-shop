@@ -90,6 +90,10 @@
     filter: invert(1);
 }
 
-/* .iconBlack {
-    filter: invert(0);
-} */
+input.iconFname{
+    background-image: url("../images/user-white.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-x: 12px;
+    background-position-y: 12px;
+}
