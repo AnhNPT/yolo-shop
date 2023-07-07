@@ -97,3 +97,11 @@ input.iconFname{
     background-position-x: 12px;
     background-position-y: 12px;
 }
+
+input.iconEmail{
+    background-image: url("../images/email.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-x: 12px;
+    background-position-y: 12px;
+}
