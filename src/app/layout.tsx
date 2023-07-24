@@ -1,3 +1,4 @@
+import { ReduxProvider } from "@/redux/provider";
 import "../../public/styles/globals.css";
 import localFont from 'next/font/local';
 
@@ -20,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <body className={`${coco.variable} ${helvetica.variable} page-start`}>{children}</body>
+            <body className={`${coco.variable} ${helvetica.variable} page-start`}><ReduxProvider>{children}</ReduxProvider></body>
         </html>
     );
 }
