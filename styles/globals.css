@@ -91,7 +91,7 @@
 }
 
 input.iconFname{
-    background-image: url("../images/user-white.svg");
+    background-image: url("../public/images/user-white.svg");
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-x: 12px;
@@ -99,7 +99,7 @@ input.iconFname{
 }
 
 input.iconEmail{
-    background-image: url("../images/email.svg");
+    background-image: url("../public/images/email.svg");
     background-repeat: no-repeat;
     background-size: 24px;
     background-position-x: 12px;

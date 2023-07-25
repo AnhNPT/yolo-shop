@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import { useAppSelector } from "@/redux/features/auth-slice";
 export default function Header() {
@@ -5,7 +7,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="z-[1] -mb-20 pt-6 container header flex items-center justify-between top-0 left-0 right-0 w-full bg-transparent px-4 md:px-0">
+            <div className="z-[1] -mb-20 pt-6 container header flex items-center justify-between w-full bg-transparent px-4 md:px-0">
                 <div className="col-1">
                     <Image alt="" className="cursor-pointer" src={"/images/hamburger.svg"} priority={true} width={56} height={1}></Image>
                 </div>

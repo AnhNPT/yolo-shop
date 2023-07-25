@@ -1,4 +1,3 @@
-"use client";
 // Splash screen
 
 import Header from "./components/header";
